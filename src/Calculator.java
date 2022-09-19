@@ -52,6 +52,27 @@ class cal implements ActionListener{
         badd.setBounds(250,310,50,40);
         bdel.setBounds(60,380,100,40);
         bclear.setBounds(180,380,100,40);
+        //Adding the buttons to layout
+        f.add(textField);
+        f.add(b1);
+        f.add(b2);
+        f.add(b3);
+        f.add(bdiv);
+        f.add(b4);
+        f.add(b5);
+        f.add(b6);
+        f.add(bmul);
+        f.add(b7);
+        f.add(b8);
+        f.add(b9);
+        f.add(bsub);
+        f.add(bdec);
+        f.add(b0);
+        f.add(beq);
+        f.add(badd);
+        f.add(bdel);
+        f.add(bclear);
+        f.setLayout(null);
     }
 }
 public class Calculator {
